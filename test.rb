@@ -10,7 +10,7 @@ require 'shout'
 require './twilio_data'
 
 USE_MP3 = true
-#ICECAST_PASSWORD = '1234'
+ICECAST_PASSWORD = '1234'
 AGGREGATE_CHUNKS = true
 $big_chunk = '' # global var to store aggregated chunk data
 
